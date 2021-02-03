@@ -1,0 +1,57 @@
+<!--HEADER-->
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+
+<!--MAIN INFORMATIONS FOR THE PODCAST -->
+<channel>
+	<title>ENTER YOUR PODCASTTITLE HERE</title>
+	<link>PODCAST WEBSITE</link>
+	<description><![CDATA[PODCAST DESCRIPTION]]></description>
+	<lastBuildDate>LAST BUILD DATE(FORMAT: Tue, 02 Feb 2021 12:00:00 +0000)</lastBuildDate>
+
+<image><url>PODCASTCOVER URL</url><title>PODCASTTITLE</title><link>WEBSITE LINK</link></image>
+<atom:link rel="self" type="application/rss+xml" title="PODCASTTITLE" href="PODCAST FEED URL" />
+	<atom:link rel="first" href="PODCAST FEED URL" />
+	<language>LANGUAGE (de-DE)</language>
+	<itunes:author>YOUR NAME</itunes:author>
+	<itunes:type>episodic</itunes:type>
+	<itunes:summary><![CDATA[MAIN PODCAST DESCRIPTION]]></itunes:summary>
+	<itunes:category text="ENTER THE CATEGORY">
+	</itunes:category>
+
+	<itunes:owner>
+		<itunes:name>PODCASTTITLE</itunes:name>
+		<itunes:email>CONTACT MAIL</itunes:email>
+	</itunes:owner>
+	<itunes:image href="PODCAST COVER URL"/>
+	<itunes:subtitle>PODCAST SUBTITLE</itunes:subtitle>
+	<itunes:block>no</itunes:block>
+	<itunes:explicit>no</itunes:explicit>
+
+<!--COPY AND PASTE THIS BLOCK FOR EVERY EPISODE --> 
+
+	<item>
+        <title>EPISODE TITLE</title>
+		<link>URL TO YOUR AUDIOFILE</link>
+		<pubDate>PUBLICATION TIME (FORMAT:Tue, 02 Jan 2021 12:00:00 +0000)</pubDate>
+		<guid isPermaLink="false">podlove-2020-09-20t18:47:55+00:00-3f127957aa69994</guid>
+    	<description><![CDATA[EPISODE DESCRIPTION]]></description>
+		<atom:link rel="http://podlove.org/deep-link" href="LINK TO EPISODE" />
+
+<enclosure url="URL TO THE EPISODE ICLUDE FILE" type="audio/mpeg"/>
+
+		<itunes:duration>EPISODE DUARTION (FORMAT 00:04:44)</itunes:duration>
+		<itunes:author>AUTHOR NAME</itunes:author>
+		<itunes:subtitle>EPISODE SUBTITLE</itunes:subtitle>
+		<itunes:title>EPISODE TITLE</itunes:title>
+		<itunes:episode>EPISODE NUMBER</itunes:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+
+
+		<content:encoded><![CDATA[
+			<p>CONTENT DESCRIPTION</p>
+]]></content:encoded>
+</item>
+</channel>
+</rss>
