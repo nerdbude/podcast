@@ -47,11 +47,6 @@
 		<itunes:title>EPISODE TITLE</itunes:title>
 		<itunes:episode>EPISODE NUMBER</itunes:episode>
 		<itunes:episodeType>full</itunes:episodeType>
-
-
-		<content:encoded><![CDATA[
-			<p>CONTENT DESCRIPTION</p>
-]]></content:encoded>
 </item>
 </channel>
 </rss>
