@@ -83,6 +83,12 @@ After you fill in the informations just put it in a folder in your webspace.<br>
 Later this folder is the adress for the podcast-directories.<br>
 
 ### Release
+In this repository is a simple template for a Blog / Website.<br>
+You have to change the default settings and upload the website to your webspace.<br>
+The website structure is based on my [NERDBUDE.COM](https://www.nerdbude.com) website structure and is a handmade blog.<br>
+There is nothing automated (at the moment) and you have to change the files for every new episode.<br>
+The template does not include the "Subscribe Button". You can get yours here: [PODLOVE SUBSCRIBE BUTTON](https://subscribe-button.podlove.org/#generator).<br>
+
 After you upload your soundfile and your feed.xml to your webspace it's time to tell the internet that you have a podcast now.<br>
 There are three importent Podcast-Directories to start with:<br>
 * [FYYD](https://www.fyyd.de)

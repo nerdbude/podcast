@@ -1,0 +1,203 @@
+/*
+8"""8 8"""" 8"""8  8""""8 8""""8   8   8 8""""8 8""""
+8   8 8     8   8  8    8 8    8   8   8 8    8 8
+8e  8 8eeee 8eee8e 8e   8 8eeee8ee 8e  8 8e   8 8eeee
+88  8 88    88   8 88   8 88     8 88  8 88   8 88
+88  8 88    88   8 88   8 88     8 88  8 88   8 88
+88  8 88eee 88   8 88eee8 88eeeee8 88ee8 88eee8 88eee
+
+[website] https://www.nerdbude.com
+[mail] post@nerdbude.com
+[twitter] @PH_0x17
+[github] https://www.github.com/nerdbude
+*/
+@font-face {
+   font-family: 'share_tech_monoregular';
+   src: url('https://www.nerdbude.com/fonts/ShareTechMono-Regular.ttf') format('ttf'),
+   	url('https://www.nerdbude.com/fonts/sharetechmono-regular-webfont.woff2') format('woff2'),
+	url('https://www.nerdbude.com/fonts/sharetechmono-regular-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+  font-family: 'share_tech_monoregular';
+  color: #d7d7d7;
+  font-size: 14px;
+  font-weight: 100;
+  background-color: #272727;
+  min-height: 100%;
+  {-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;}
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+pre {
+  padding: 0;
+  margin: 0 0 0px 0;
+}
+
+ul {
+  padding: 0;
+}
+
+h1 {color: #875fff; background-color: #272727;}
+h2 {color: #875fff; background-color: #272727;}
+h3 {color: #875fff; background-color: #272727;}
+
+span {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: underline;
+  color: #875fff;
+  transition-duration: 0.2s;
+  padding-top: 3px;
+}
+
+a.front {
+  text-decoration: none;
+  color: #d7d7d7;
+  transition-duration: 0.2s;
+  padding-top: 3px;}
+
+a:hover {
+  color: #272727;
+  background-color: #875fff;
+}
+
+a.front:hover {
+  color: #272727;
+  background-color: #875fff;
+}
+
+a:active {
+  color: #8787ff;
+}
+
+a.front:active {
+  color: #8787ff;
+}
+
+p {
+  padding: 0;
+  margin: 10px 0 30px 0;
+}
+
+img {
+  max-width: 100%;
+  margin-bottom: 0px;
+}
+
+header {
+  width: 100%;
+  top: 0;
+  background-color: #272727;
+  height: auto;
+  padding-bottom: 10px;
+  margin-bottom:10px;
+  letter-spacing: 0px;
+  border-bottom: 1px dashed #875fff;
+}
+th {
+  text-align: left;
+  font-weight: 100;
+}
+
+ln		{font-family: 'Share Tech Mono', monospace;}
+ln::before 	{content: counter(line, decimal-leading-zero);
+		 background: #282828;
+		 color: #444444;
+		 padding: 0 10px 0;
+		 margin: 0 10px 0 0;
+		 border-right: 1px solid #444444;
+		 counter-increment: line;
+		 -webkit-user-select: none;
+	 	}
+
+td.maintitle {color: #875fff; font-size: 14px}
+td.episodenr {color: #875fff; font-size: 22px;}
+td.title {color: #875fff; font-size: 22px;}
+td.playtime {color: #d7d7d7;}
+td.subtitle {color: #8a8a8a;}
+td.separator {color: #d7d7d7; font-size: 22px;}
+td.abo {color: #875fff; font-size: 18px;}
+
+th.desc {color: #8a8a8a;}
+th.date {color: #8a8a8a;}
+th.time {color: #8a8a8a;}
+th.change {color: #d7d7d7;}
+th.red {color: #ff5f5f;}
+th.green {color: #5fd75f;}
+th.yellow {color: #ffff5f;}
+th.user {color: #8787ff;}
+
+#content {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+#footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 10px;
+  z-index: 1;
+  background-color: #272727;
+}
+
+#nbpp {
+  background: transparent;
+  padding: 15px 15px 15px 15px;
+  margin: 0 0 2px 0;
+  width: 70%;
+  border-style: solid;
+  border-color: #875fff;
+  border-width: 1px;
+  counter-reset: line;}
+
+
+#cssyn {
+  background: transparent;
+  padding: 15px 15px 15px 0px;
+  margin: 0 0 2px 0;
+  width: 70%;
+  border-style: solid;
+  border-color: #875fff;
+  border-width: 1px;
+  counter-reset: line;
+  }
+
+pre		{font-family: 'Share Tech Mono', monospace;
+		 padding-left: 15px;}
+
+.label		{background-color: #875fff;
+		 border-style: solid;
+		 border-width: 1px;
+		 border-color: #875fff;
+		 padding-left: 15px;
+		 padding-right: 15px;
+		 color: #272727;
+	 }
+
+
+.unixshell 	{color: #87afd7; font-style: italic;}
+.comment	{color: #8a8a8a;}
+.url		{color: #00ffd7; font-style: italic; text-decoration: underline;}
+.value		{color: #875fff;}
+.header-file	{color: #afd75f;}
+.selector	{color: #ff5f5f;}
+.subselector	{color: #ffff5f;}
+.unit		{color: #ff5f87;}
+
+.tag            {color: #afd75f;}
+.important      {margin-left: -18px;}
+.link		{color: #afd75f; background: #272727;}
+.subtitle       {display: inline-block; margin: 20px 0;}
+.filter         {display:block; margin-bottom: 30px; margin-top: -20px;}
+.description    {background: #272727; padding: 10px 0 10px 10px; margin-top: 0px;}
