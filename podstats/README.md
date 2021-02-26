@@ -14,7 +14,9 @@ The "logs" folder contains the 'master.log' and a logfile for each episode i.e. 
 The "new_logs" folder contains your new server access log file. 
 
 Start the script:<br>
-  $> sh sortlogs.sh
+
+```$> sh sortlogs.sh```
+
 <br>
 The script looks for existing log files and for new logfiles.<br>
 You have to type in your new log file and follow the instructions on the screen.<br>
