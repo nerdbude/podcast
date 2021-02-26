@@ -1,0 +1,3 @@
+nerdbude.com anon-66-249-67-167.googlebot.com - - [08/Feb/2021:13:59:36 +0100] "GET /podcast/audio/CCH_000.mp3 HTTP/1.1" 200 11376985 "-" "Googlebot-Video/1.0"
+nerdbude.com anon-52-118-13-244.ip6.invalid - - [10/Feb/2021:14:24:01 +0100] "GET /podcast/audio/CCH_001.mp3 HTTP/2.0" 200 14442099 "-" "AppleCoreMedia/1.0.0.18D52 (iPhone; U; CPU OS 14_4 like Mac OS X; de_de)"
+nerdbude.com anon-0-0-0-146.ip6.invalid - - [22/Feb/2021:08:25:38 +0100] "GET /podcast/audio/CCH_002.mp3 HTTP/2.0" 200 67953039 "https://www.nerdbude.com/podcast/" "Mozilla/5.0 (iPhone; CPU OS 14_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/31.0  Mobile/15E148 Safari/605.1.15"
