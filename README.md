@@ -30,6 +30,8 @@ There are two options to publish your podcast.<br>
   There is nothing automated (at the moment) and you have to change the files for every new episode.<br>
   The template does not include the "Subscribe Button". You can get yours here: [PODLOVE SUBSCRIBE BUTTON](https://subscribe-button.podlove.org/#generator).<br>
 
+  In this Repo is also a minimalistic Landingpage. Feel free to use it!
+
 2. Wordpress:
   The more easy way to provide your new podcast. Install Wordpress and use the the Plugins [PODLOVE Podcast Publisher](https://www.podlove.org) and the [PODLOVE Subscribe Button](https://www.podlove.org).<br>
   These are tools from the podcast-community for the podcast-community.
