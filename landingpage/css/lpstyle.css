@@ -1,0 +1,140 @@
+/*
+8"""8 8"""" 8"""8  8""""8 8""""8   8   8 8""""8 8""""
+8   8 8     8   8  8    8 8    8   8   8 8    8 8
+8e  8 8eeee 8eee8e 8e   8 8eeee8ee 8e  8 8e   8 8eeee
+88  8 88    88   8 88   8 88     8 88  8 88   8 88
+88  8 88    88   8 88   8 88     8 88  8 88   8 88
+88  8 88eee 88   8 88eee8 88eeeee8 88ee8 88eee8 88eee
+
+[website] https://www.nerdbude.com
+[mail] post@nerdbude.com
+[twitter] @PH_0x17
+[github] https://www.github.com/nerdbude
+*/
+@font-face {
+   font-family: 'share_tech_monoregular';
+   src: url('https://www.nerdbude.com/fonts/ShareTechMono-Regular.ttf') format('ttf'),
+   	url('https://www.nerdbude.com/fonts/sharetechmono-regular-webfont.woff2') format('woff2'),
+	url('https://www.nerdbude.com/fonts/sharetechmono-regular-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+* {
+  transition: .33s ease all;
+  box-sizing: border-box;
+}
+body {
+	margin: 0;
+	padding: 0;
+}
+html {
+  font-family: 'share_tech_monoregular', sans-serif;
+  box-sizing: border-box;
+}
+span {
+  display: inline-block;
+  width: 50px;
+  height: 5px;
+  background-color: #875fff;
+  margin-bottom: 30px;
+}
+div.main {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #272727;
+  background-image: url("https://www.nerdbude.com/podcast/images/bars.JPG");
+  background-size: auto;
+  background-repeat: repeat;
+}
+div.container {
+  background-color: #272727;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0px;
+  border-radius: 5px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.45);
+}
+
+imag {
+  width: 100%;
+}
+h1 {
+  font-weight: 600;
+  font-size: 36px;
+  margin: 0 0 15px;
+  color: #875fff;
+}
+p {
+  font-weight: 300;
+  line-height: 26px;
+  margin: 0 0 30px 0;
+  color: #afd875;
+}
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #875fff;
+  font-weight: bold;
+  font-size: 22px;
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+  padding: 5px;
+  left: -5px;
+}
+a:hover {
+  color: #afd875;
+}
+a::before {
+  content: '';
+  z-index: -1;
+  position: absolute;
+  top: calc(50%);
+  left: 0;
+  width: 100%;
+  height: 40%;
+  pointer-events: none;
+  background:   #272727;
+  transform: scale3d(0, 1, 1);
+  transform-origin: 0% 50%;
+  transition: transform 0.33s;
+}
+a:hover::before {
+          transform: scale3d(1, 1, 1);
+          transform-origin: 0% 50%;
+}
+div.imag {
+  height: 200px;
+  width: 200px;
+  background: url("https://www.nerdbude.com/podcast/images/cover.png");
+  background-position: center;
+  background-size: cover;
+  margin: 10px;
+}
+div.text-container {
+  margin: 20px 45px 55px;
+  color: #875fff;
+}
+@media screen and (min-width: 768px) {
+  div.container {
+    flex-direction: row;
+    width: 100%;
+  }
+div.imag {
+    height: 300px;
+    min-width: 300px;
+  }
+ div.text-container {
+    margin: 0 60px;
+    max-width: 660px;
+  }
+}
+@media screen and (min-width: 900px) {
+  div.container {
+    max-width: 900px;
+  }
+}
