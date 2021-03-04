@@ -22,7 +22,7 @@ The "new_logs" folder contains your new server access log file.
 
 Start the script:<br>
 
-```$> sh sortlogs.sh```
+$> sh sortlogs.sh
 
 <br>
 The script looks for existing log files and for new logfiles.<br>
@@ -34,4 +34,4 @@ The "count.sh" starts [GoAccess](https://goaccess.io), a Opensource Log File ana
 <br>
 ![alt text](https://github.com/nerdbude/podcast/blob/master/images/dashboard.png "dashboard")
 
-Have fun with your stats! 
+Have fun with your stats!
