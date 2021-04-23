@@ -109,7 +109,8 @@ th {
   font-weight: 100;
 }
 
-ln		{font-family: 'Share Tech Mono', monospace;}
+ln		{font-family: 'Share Tech Mono', monospace;
+        white-space:pre-wrap;}
 ln::before 	{content: counter(line, decimal-leading-zero);
 		 background: #282828;
 		 color: #444444;

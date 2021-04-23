@@ -14,6 +14,8 @@
 <atom:link rel="self" type="application/rss+xml" title="PODCASTTITLE" href="PODCAST FEED URL" />
 	<atom:link rel="first" href="PODCAST FEED URL" />
 	<language>LANGUAGE (de-DE)</language>
+	<fyyd:verify>YOUR FYYD.DE NUMBER</fyyd:verify>
+	<copyright>CC BY</copyright>
 	<itunes:author>YOUR NAME</itunes:author>
 	<itunes:type>episodic</itunes:type>
 	<itunes:summary><![CDATA[MAIN PODCAST DESCRIPTION]]></itunes:summary>
@@ -29,7 +31,7 @@
 	<itunes:block>no</itunes:block>
 	<itunes:explicit>no</itunes:explicit>
 
-<!--COPY AND PASTE THIS BLOCK FOR EVERY EPISODE --> 
+<!--COPY AND PASTE THIS BLOCK FOR EVERY EPISODE -->
 
 	<item>
         <title>EPISODE TITLE</title>
